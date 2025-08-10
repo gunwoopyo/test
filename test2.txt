@@ -1,18 +1,18 @@
 hello git git!!
 
-커밋 목록 - git log  
+# 커밋 목록 - git log  
+# 수정한 거 확인 - git status  
 
-수정한 거 - 확인git status  
+# Staging Area로 옮기기 - git add test.txt  - 
+# Repository로 옮기기 - git commit -m "first"  
+# 한 번에 Repository로 옮기기 - git commit -am "  "
 
-Staging Area로 옮기기 - git add test.txt  - 
-
-Repository로 옮기기 - git commit -m "first"  
-
-한 번에 Repository로 옮기기 - git commit -am "  "
-
-git remote add origin https://github.com/gunwoopyo/test.git
+# 깃허브 연결 - git remote add origin https://github.com/gunwoopyo/test.git
 ((git remote set-url origin https://github.com/gunwoopyo/test.git))
+# 깃허브에 올리기  - git push origin master
 
-git push origin master
+# 되돌리기 - git reset --hard
+# 가장 최근 커밋으로부터 하나 전으로 되돌려라 - git reset --hard HEAD^
 
+!!!
 
