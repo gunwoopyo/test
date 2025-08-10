@@ -14,5 +14,13 @@ hello git git!!
 # 되돌리기 - git reset --hard
 # 가장 최근 커밋으로부터 하나 전으로 되돌려라 - git reset --hard HEAD^
 
-!!!
+--soft : 커밋만 되돌리고, 작업한 파일들은 그대로 둔다
 
+--mixed : 커밋과 스테이지만 되돌리고, 작업 파일은 그대로 둔다
+
+--hard : 커밋, 스테이지, 작업 파일 모두 이전 상태로 완전 초기화
+
+# git branch
+# git branch my_branch
+# git chechout 브랜치명
+# git merge 합치고싶은브랜치명
