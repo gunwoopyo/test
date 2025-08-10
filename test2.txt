@@ -1,7 +1,7 @@
 hello git git!!
 
-git log  - 커밋 목록
-git status  - 수정한 거 확인
-git add test.txt  - Staging Area로 옮기기 
-git commit -m "first"  - Repository로 옮기기
-
+커밋 목록 - git log  
+수정한 거 - 확인git status  
+Staging Area로 옮기기 - git add test.txt  - 
+Repository로 옮기기 - git commit -m "first"  
+한 번에 Repository로 옮기기 - git commit -am ""
